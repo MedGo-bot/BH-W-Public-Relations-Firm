@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy-deep: #0b1d3a;
+    --color-navy-dark: #060f1e;
+    --color-gold-accent: #c5a880;
+    --color-champagne-light: #e2cfb3;
+    --color-bronze: #9a7b54;
+    --color-charcoal-1: #11100f;
+    --color-charcoal-2: #1a1918;
+    --color-slate-dark: #16181d;
+    --color-slate-border: #2a2f3a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-serif-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display-crest {
+  font-family: 'Cinzel', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
